@@ -19,11 +19,11 @@
   border: none;
   margin: calc(2rem - 0.1428571428571429em) 0 1rem;
   padding: 0 0;
-  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: 'Poppins', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: normal;
   line-height: 1.28571429em;
   text-transform: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: #ffffff;
 }
 .ui.header:first-child {
   margin-top: -0.14285714em;

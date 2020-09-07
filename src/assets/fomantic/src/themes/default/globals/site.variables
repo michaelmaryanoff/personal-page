@@ -8,7 +8,7 @@
        Fonts
 --------------------*/
 
-@fontName          : 'Roboto';
+@fontName          : 'Poppins';
 
 @headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -66,7 +66,7 @@
   Page Heading
 ---------------*/
 
-@headerFontWeight : @bold;
+@headerFontWeight : @normal;
 @headerLineHeight : unit((18 / 14), em);
 
 @h1 : unit((28 / 14), rem);
@@ -127,11 +127,11 @@
         Page
 --------------------*/
 
-@pageBackground      : #041435;
+@pageBackground      : #021022;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
-@textColor           : rgba(0, 0, 0, 0.87);
+@textColor           : rgb(255, 255, 255);
 
 /*-------------------
       Paragraph
