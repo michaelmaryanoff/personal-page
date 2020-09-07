@@ -6,7 +6,7 @@ import Spacer from '../Spacer';
 const MainPage = () => {
   return (
     <div className="ui middle aligned grid">
-      <Spacer spacing={8}/>
+      <Spacer spacing={6} />
       <div className="row">
         <HeroHeader />
       </div>
