@@ -1,5 +1,7 @@
 import React from 'react';
 
+import SocialLinks from './mainpage/SocialLinks';
+
 const HeroHeader = () => {
   return (
     <div className="centered center aligned column" style={{ height: 100 }}>
@@ -8,11 +10,13 @@ const HeroHeader = () => {
           Michael Maryanoff
         </h2>
         <h3 className="ui large inverted header">
-          I write web applications in React ⚛
+          I build web applications in React ⚛
           <p />
           <p />
           Check out my work here:
         </h3>
+        <button className="ui basic inverted button">PROJECTS</button>
+        <SocialLinks />
       </div>
     </div>
   );
