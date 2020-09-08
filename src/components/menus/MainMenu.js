@@ -3,6 +3,7 @@ import React from 'react';
 import { withRouter } from 'react-router';
 
 import MenuItem from './MenuItem';
+import RightMenu from './RightMenu';
 
 const MainMenu = props => {
   const { pathname } = props.location;
@@ -11,6 +12,7 @@ const MainMenu = props => {
       <div className="ui container">
         <MenuItem route="/" label="Home" pathName={pathname} />
         <MenuItem route="/projects" label="Projects" pathName={pathname} />
+        <RightMenu />
       </div>
     </div>
   );
