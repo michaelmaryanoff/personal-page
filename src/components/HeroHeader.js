@@ -1,6 +1,8 @@
 import React from 'react';
 
-import SocialLinks from './mainPageComponents/SocialLinks';
+import { Link } from 'react-router-dom';
+
+import SocialLinks from '../components/pages/mainPageComponents/SocialLinks';
 
 const HeroHeader = () => {
   return (
@@ -15,7 +17,9 @@ const HeroHeader = () => {
           <p />
           Check out my work here:
         </h3>
-        <button className="ui basic inverted button">PROJECTS</button>
+        <Link to={'/projects'} className="ui basic inverted button">
+          PROJECTS
+        </Link>
         <SocialLinks />
       </div>
     </div>
