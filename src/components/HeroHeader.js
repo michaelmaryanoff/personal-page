@@ -10,7 +10,7 @@ const HeroHeader = () => {
           Michael Maryanoff
         </h2>
         <h3 className="ui large inverted header">
-          I build web applications in React ⚛
+          I build web applications with React ⚛
           <p />
           <p />
           Check out my work here:
