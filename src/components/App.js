@@ -7,6 +7,7 @@ import { Route, Switch, BrowserRouter } from 'react-router-dom';
 
 import MainPage from './pages/MainPage';
 import MainMenu from './menus/MainMenu';
+import ProjectsPage from './pages/ProjectsPage'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <MainMenu />
         <Switch>
           <Route path="/" exact component={MainPage} />
+          <Route path="/projects" exact component={ProjectsPage} />
         </Switch>
       </BrowserRouter>
     </div>
