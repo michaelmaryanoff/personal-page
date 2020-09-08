@@ -1273,7 +1273,7 @@
 .ui.grid > .secondary.row,
 .ui.grid > .secondary.column,
 .ui.grid > .row > .secondary.column {
-  background-color: #1B1C1D;
+  background-color: #021022;
   color: #FFFFFF;
 }
 .ui.grid > .red.row,
@@ -1351,7 +1351,7 @@
 .ui.grid > .black.row,
 .ui.grid > .black.column,
 .ui.grid > .row > .black.column {
-  background-color: #1B1C1D;
+  background-color: #021022;
   color: #FFFFFF;
 }
 

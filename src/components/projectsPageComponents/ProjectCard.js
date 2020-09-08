@@ -3,7 +3,7 @@ import React from 'react';
 const ProjectCard = props => {
   return (
     <div className="column">
-      <div className="ui inverted card">
+      <div className="ui fluid inverted card">
         <div className="image">
           <img src={props.imagePath} alt={props.alt} />
         </div>

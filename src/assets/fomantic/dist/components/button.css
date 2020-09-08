@@ -1421,7 +1421,7 @@
 }
 .ui.secondary.buttons .button,
 .ui.secondary.button {
-  background-color: #1B1C1D;
+  background-color: #021022;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -1431,19 +1431,19 @@
 }
 .ui.secondary.buttons .button:hover,
 .ui.secondary.button:hover {
-  background-color: #27292a;
+  background-color: #011b3d;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.secondary.buttons .button:focus,
 .ui.secondary.button:focus {
-  background-color: #2e3032;
+  background-color: #00224d;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.secondary.buttons .button:active,
 .ui.secondary.button:active {
-  background-color: #343637;
+  background-color: #052752;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -1451,7 +1451,7 @@
 .ui.secondary.buttons .active.button:active,
 .ui.secondary.active.button,
 .ui.secondary.button .active.button:active {
-  background-color: #27292a;
+  background-color: #001b3e;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -1460,31 +1460,31 @@
 .ui.basic.secondary.buttons .button,
 .ui.basic.secondary.button {
   background: transparent;
-  box-shadow: 0 0 0 1px #1B1C1D inset;
-  color: #1B1C1D;
+  box-shadow: 0 0 0 1px #021022 inset;
+  color: #021022;
 }
 .ui.basic.secondary.buttons .button:hover,
 .ui.basic.secondary.button:hover {
   background: transparent ;
-  box-shadow: 0 0 0 1px #27292a inset;
-  color: #27292a;
+  box-shadow: 0 0 0 1px #011b3d inset;
+  color: #011b3d;
 }
 .ui.basic.secondary.buttons .button:focus,
 .ui.basic.secondary.button:focus {
   background: transparent ;
-  box-shadow: 0 0 0 1px #2e3032 inset;
-  color: #27292a;
+  box-shadow: 0 0 0 1px #00224d inset;
+  color: #011b3d;
 }
 .ui.basic.secondary.buttons .active.button,
 .ui.basic.secondary.active.button {
   background: transparent ;
-  box-shadow: 0 0 0 1px #27292a inset;
-  color: #343637;
+  box-shadow: 0 0 0 1px #001b3e inset;
+  color: #052752;
 }
 .ui.basic.secondary.buttons .button:active,
 .ui.basic.secondary.button:active {
-  box-shadow: 0 0 0 1px #343637 inset;
-  color: #343637;
+  box-shadow: 0 0 0 1px #052752 inset;
+  color: #052752;
 }
 .ui.buttons:not(.vertical) > .basic.secondary.button:not(:first-child) {
   margin-left: -1px;
@@ -1564,19 +1564,19 @@
 .ui.tertiary.secondary.button {
   background: transparent;
   box-shadow: none;
-  color: #1B1C1D;
+  color: #021022;
 }
 .ui.tertiary.secondary.buttons .button:hover,
 .ui.tertiary.secondary.buttons button:hover,
 .ui.tertiary.secondary.button:hover {
-  box-shadow: inset 0 -0.2em 0 #292929;
-  color: #292929;
+  box-shadow: inset 0 -0.2em 0 #071c37;
+  color: #071c37;
 }
 .ui.tertiary.secondary.buttons .button:focus,
 .ui.tertiary.secondary.buttons .tertiary.button:focus,
 .ui.tertiary.secondary.button:focus {
-  box-shadow: inset 0 -0.2em 0 #303030;
-  color: #303030;
+  box-shadow: inset 0 -0.2em 0 #082345;
+  color: #082345;
 }
 .ui.tertiary.secondary.buttons .active.button,
 .ui.tertiary.secondary.buttons .tertiary.active.button,
@@ -1584,8 +1584,8 @@
 .ui.tertiary.secondary.buttons .button:active,
 .ui.tertiary.secondary.buttons .tertiary.button:active,
 .ui.tertiary.secondary.button:active {
-  box-shadow: inset 0 -0.2em 0 #1f2933;
-  color: #27292a;
+  box-shadow: inset 0 -0.2em 0 #001b3e;
+  color: #001b3e;
 }
 .ui.red.buttons .button,
 .ui.red.button {
@@ -3605,7 +3605,7 @@
 }
 .ui.black.buttons .button,
 .ui.black.button {
-  background-color: #1B1C1D;
+  background-color: #021022;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -3615,19 +3615,19 @@
 }
 .ui.black.buttons .button:hover,
 .ui.black.button:hover {
-  background-color: #27292a;
+  background-color: #031b3a;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.black.buttons .button:focus,
 .ui.black.button:focus {
-  background-color: #2f3032;
+  background-color: #042249;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.black.buttons .button:active,
 .ui.black.button:active {
-  background-color: #343637;
+  background-color: #052752;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -3635,7 +3635,7 @@
 .ui.black.buttons .active.button:active,
 .ui.black.active.button,
 .ui.black.button .active.button:active {
-  background-color: #0f0f10;
+  background-color: #01050a;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -3644,31 +3644,31 @@
 .ui.basic.black.buttons .button,
 .ui.basic.black.button {
   background: transparent;
-  box-shadow: 0 0 0 1px #1B1C1D inset;
-  color: #1B1C1D;
+  box-shadow: 0 0 0 1px #021022 inset;
+  color: #021022;
 }
 .ui.basic.black.buttons .button:hover,
 .ui.basic.black.button:hover {
   background: transparent ;
-  box-shadow: 0 0 0 1px #27292a inset;
-  color: #27292a;
+  box-shadow: 0 0 0 1px #031b3a inset;
+  color: #031b3a;
 }
 .ui.basic.black.buttons .button:focus,
 .ui.basic.black.button:focus {
   background: transparent ;
-  box-shadow: 0 0 0 1px #2f3032 inset;
-  color: #27292a;
+  box-shadow: 0 0 0 1px #042249 inset;
+  color: #031b3a;
 }
 .ui.basic.black.buttons .active.button,
 .ui.basic.black.active.button {
   background: transparent ;
-  box-shadow: 0 0 0 1px #0f0f10 inset;
-  color: #343637;
+  box-shadow: 0 0 0 1px #01050a inset;
+  color: #052752;
 }
 .ui.basic.black.buttons .button:active,
 .ui.basic.black.button:active {
-  box-shadow: 0 0 0 1px #343637 inset;
-  color: #343637;
+  box-shadow: 0 0 0 1px #052752 inset;
+  color: #052752;
 }
 .ui.buttons:not(.vertical) > .basic.black.button:not(:first-child) {
   margin-left: -1px;
@@ -3748,19 +3748,19 @@
 .ui.tertiary.black.button {
   background: transparent;
   box-shadow: none;
-  color: #1B1C1D;
+  color: #021022;
 }
 .ui.tertiary.black.buttons .button:hover,
 .ui.tertiary.black.buttons button:hover,
 .ui.tertiary.black.button:hover {
-  box-shadow: inset 0 -0.2em 0 #8b8f93;
-  color: #8b8f93;
+  box-shadow: inset 0 -0.2em 0 #1877f1;
+  color: #1877f1;
 }
 .ui.tertiary.black.buttons .button:focus,
 .ui.tertiary.black.buttons .tertiary.button:focus,
 .ui.tertiary.black.button:focus {
-  box-shadow: inset 0 -0.2em 0 #93969a;
-  color: #93969a;
+  box-shadow: inset 0 -0.2em 0 #2780f2;
+  color: #2780f2;
 }
 .ui.tertiary.black.buttons .active.button,
 .ui.tertiary.black.buttons .tertiary.active.button,
@@ -3768,8 +3768,8 @@
 .ui.tertiary.black.buttons .button:active,
 .ui.tertiary.black.buttons .tertiary.button:active,
 .ui.tertiary.black.button:active {
-  box-shadow: inset 0 -0.2em 0 #404245;
-  color: #0f0f10;
+  box-shadow: inset 0 -0.2em 0 #06326a;
+  color: #01050a;
 }
 
 /*---------------

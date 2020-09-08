@@ -328,7 +328,7 @@ h6.ui.header .sub.header {
   color: rgba(255, 255, 255, 0.8);
 }
 .ui.inverted.attached.header {
-  background: #1B1C1D;
+  background: #021022;
   box-shadow: none;
   border-color: transparent;
 }
@@ -361,13 +361,13 @@ a.ui.inverted.primary.header.header.header:hover {
   border-bottom: 2px solid #54C8FF;
 }
 .ui.secondary.header {
-  color: #1B1C1D;
+  color: #021022;
 }
 a.ui.secondary.header:hover {
-  color: #27292a;
+  color: #011b3d;
 }
 .ui.secondary.dividing.header {
-  border-bottom: 2px solid #1B1C1D;
+  border-bottom: 2px solid #021022;
 }
 .ui.inverted.secondary.header.header.header {
   color: #545454;
@@ -595,13 +595,13 @@ a.ui.inverted.grey.header.header.header:hover {
   border-bottom: 2px solid #DCDDDE;
 }
 .ui.black.header {
-  color: #1B1C1D;
+  color: #021022;
 }
 a.ui.black.header:hover {
-  color: #27292a;
+  color: #031b3a;
 }
 .ui.black.dividing.header {
-  border-bottom: 2px solid #1B1C1D;
+  border-bottom: 2px solid #021022;
 }
 .ui.inverted.black.header.header.header {
   color: #545454;

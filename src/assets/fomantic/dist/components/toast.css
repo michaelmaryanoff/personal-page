@@ -462,7 +462,7 @@
   color: #ffffff;
 }
 .ui.secondary.toast {
-  background-color: #1B1C1D;
+  background-color: #021022;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.secondary.toast,
@@ -579,7 +579,7 @@
   color: #ffffff;
 }
 .ui.black.toast {
-  background-color: #1B1C1D;
+  background-color: #021022;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.black.toast,
@@ -589,7 +589,7 @@
 }
 .ui.inverted.toast {
   color: rgba(255, 255, 255, 0.9);
-  background-color: #1B1C1D;
+  background-color: #021022;
 }
 @media only screen and (max-width: 420px) {
   .ui.toast-container .toast-box.toast-box,

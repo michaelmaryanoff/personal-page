@@ -106,21 +106,21 @@
 }
 .ui.secondary.rating .active.icon {
   color: #545454;
-  text-shadow: 0px -1px 0px #1B1C1D, -1px 0px 0px #1B1C1D, 0px 1px 0px #1B1C1D, 1px 0px 0px #1B1C1D;
+  text-shadow: 0px -1px 0px #021022, -1px 0px 0px #021022, 0px 1px 0px #021022, 1px 0px 0px #021022;
 }
 .ui.secondary.rating .icon.selected,
 .ui.secondary.rating .icon.selected.active,
 .ui.secondary.rating .icon.selected.partial.active {
   background: inherit;
   color: #6e6e6e;
-  text-shadow: 0px -1px 0px #27292a, -1px 0px 0px #27292a, 0px 1px 0px #27292a, 1px 0px 0px #27292a;
+  text-shadow: 0px -1px 0px #011b3d, -1px 0px 0px #011b3d, 0px 1px 0px #011b3d, 1px 0px 0px #011b3d;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
 .ui.secondary.rating .icon.partial.active {
   background: linear-gradient(to right, #545454 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: #1B1C1D 0.78px;
+  -webkit-text-stroke: #021022 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
@@ -379,21 +379,21 @@
 }
 .ui.black.rating .active.icon {
   color: #545454;
-  text-shadow: 0px -1px 0px #1B1C1D, -1px 0px 0px #1B1C1D, 0px 1px 0px #1B1C1D, 1px 0px 0px #1B1C1D;
+  text-shadow: 0px -1px 0px #021022, -1px 0px 0px #021022, 0px 1px 0px #021022, 1px 0px 0px #021022;
 }
 .ui.black.rating .icon.selected,
 .ui.black.rating .icon.selected.active,
 .ui.black.rating .icon.selected.partial.active {
   background: inherit;
   color: #000000;
-  text-shadow: 0px -1px 0px #27292a, -1px 0px 0px #27292a, 0px 1px 0px #27292a, 1px 0px 0px #27292a;
+  text-shadow: 0px -1px 0px #031b3a, -1px 0px 0px #031b3a, 0px 1px 0px #031b3a, 1px 0px 0px #031b3a;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
 .ui.black.rating .icon.partial.active {
   background: linear-gradient(to right, #545454 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: #1B1C1D 0.78px;
+  -webkit-text-stroke: #021022 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;

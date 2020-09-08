@@ -21,22 +21,16 @@
 @width: 290px;
 @borderWidth: 1px;
 @borderShadow: 0 0 0 @borderWidth @solidBorderColor;
-@boxShadow:
-  @shadowBoxShadow,
-  @borderShadow
-;
+@boxShadow: @shadowBoxShadow, @borderShadow;
 @border: none;
 @zIndex: '';
-@transition:
-  box-shadow @defaultDuration @defaultEasing,
-  transform @defaultDuration @defaultEasing
-;
+@transition: box-shadow @defaultDuration @defaultEasing, transform @defaultDuration @defaultEasing;
 
 /* Card Group */
 @horizontalSpacing: 1em;
 @rowSpacing: 1.75em;
 
-@groupMargin: -(@rowSpacing / 2) -(@horizontalSpacing / 2);
+@groupMargin: -(@rowSpacing / 2) - (@horizontalSpacing / 2);
 @groupDisplay: flex;
 
 @groupCardFloat: none;
@@ -49,7 +43,6 @@
 /*-------------------
        Content
 --------------------*/
-
 
 /* Image */
 @imageBackground: @transparentBlack;
@@ -68,7 +61,6 @@
 @contentBoxShadow: none;
 @contentBorder: none;
 
-
 /* Header */
 @headerMargin: '';
 @headerFontWeight: @bold;
@@ -86,11 +78,11 @@
 @actionHoverOpacity: 1;
 @actionTransition: color @defaultDuration @defaultEasing;
 
-@starColor: #FFB70A;
-@starActiveColor: #FFE623;
+@starColor: #ffb70a;
+@starActiveColor: #ffe623;
 
-@likeColor: #FF2733;
-@likeActiveColor: #FF2733;
+@likeColor: #ff2733;
+@likeActiveColor: #ff2733;
 
 /* Links */
 @contentLinkColor: '';
@@ -141,7 +133,7 @@
 
 /* Buttons */
 @buttonMargin: 0 -@borderWidth;
-@buttonWidth: e(%("calc(100%% + %d)", @borderWidth * 2));
+@buttonWidth: e(%('calc(100%% + %d)', @borderWidth * 2));
 
 /*-------------------
       Variations
@@ -155,10 +147,7 @@
 @linkHoverTransform: translateY(-@linkHoverRaiseDistance);
 
 @shadowHoverBoxShadow: 0 @shadowDistance @linkHoverRaiseDistance 0 @solidSelectedBorderColor;
-@linkHoverBoxShadow:
-  @shadowHoverBoxShadow,
-  @borderShadow
-;
+@linkHoverBoxShadow: @shadowHoverBoxShadow, @borderShadow;
 
 /* Horizontal */
 @horizontalMinWidth: 270px;
@@ -166,14 +155,8 @@
 @horizontalImageWidth: 150px;
 
 /* Raised */
-@raisedShadow:
-  @borderShadow,
-  @floatingShadow
-;
-@raisedShadowHover:
-  @borderShadow,
-  @floatingShadowHover
-;
+@raisedShadow: @borderShadow, @floatingShadow;
+@raisedShadowHover: @borderShadow, @floatingShadowHover;
 
 /* Card Count */
 @wideCardSpacing: 1em;
@@ -193,29 +176,29 @@
 
 @oneCard: @oneColumn;
 @oneCardOffset: 0;
-@twoCard: e(%("calc(%d - %d)", @twoColumn, @twoCardSpacing * 2));
+@twoCard: e(%('calc(%d - %d)', @twoColumn, @twoCardSpacing * 2));
 @twoCardOffset: -@twoCardSpacing;
-@threeCard: e(%("calc(%d - %d)", @threeColumn, @threeCardSpacing * 2));
+@threeCard: e(%('calc(%d - %d)', @threeColumn, @threeCardSpacing * 2));
 @threeCardOffset: -@threeCardSpacing;
-@fourCard: e(%("calc(%d - %d)", @fourColumn, @fourCardSpacing * 2));
+@fourCard: e(%('calc(%d - %d)', @fourColumn, @fourCardSpacing * 2));
 @fourCardOffset: -@fourCardSpacing;
-@fiveCard: e(%("calc(%d - %d)", @fiveColumn, @fiveCardSpacing * 2));
+@fiveCard: e(%('calc(%d - %d)', @fiveColumn, @fiveCardSpacing * 2));
 @fiveCardOffset: -@fiveCardSpacing;
-@sixCard: e(%("calc(%d - %d)", @sixColumn, @sixCardSpacing * 2));
+@sixCard: e(%('calc(%d - %d)', @sixColumn, @sixCardSpacing * 2));
 @sixCardOffset: -@sixCardSpacing;
-@sevenCard: e(%("calc(%d - %d)", @sevenColumn, @sevenCardSpacing * 2));
+@sevenCard: e(%('calc(%d - %d)', @sevenColumn, @sevenCardSpacing * 2));
 @sevenCardOffset: -@sevenCardSpacing;
-@eightCard: e(%("calc(%d - %d)", @eightColumn, @sevenCardSpacing * 2));
+@eightCard: e(%('calc(%d - %d)', @eightColumn, @sevenCardSpacing * 2));
 @eightCardOffset: -@sevenCardSpacing;
-@nineCard: e(%("calc(%d - %d)", @nineColumn, @nineCardSpacing * 2));
+@nineCard: e(%('calc(%d - %d)', @nineColumn, @nineCardSpacing * 2));
 @nineCardOffset: -@nineCardSpacing;
-@tenCard: e(%("calc(%d - %d)", @tenColumn, @tenCardSpacing * 2));
+@tenCard: e(%('calc(%d - %d)', @tenColumn, @tenCardSpacing * 2));
 @tenCardOffset: -@tenCardSpacing;
 
 /* Stackable */
 @stackableRowSpacing: 1em;
 @stackableCardSpacing: 1em;
-@stackableMargin: e(%("calc(%d - %d)", @oneColumn, @stackableCardSpacing * 2));
+@stackableMargin: e(%('calc(%d - %d)', @oneColumn, @stackableCardSpacing * 2));
 
 /* Sizes */
 @medium: 1em;
@@ -235,7 +218,5 @@
 @invertedExtraLinkColor: @invertedUnselectedTextColor;
 @invertedExtraDivider: 1px solid rgba(255, 255, 255, 0.15);
 @invertedLinkHoverBackground: @black;
-@invertedBoxShadow:
-  0 @shadowDistance 3px 0 @solidWhiteBorderColor,
-  0 0 0 @borderWidth @solidWhiteBorderColor
-;
+@invertedBoxShadow: 0 @shadowDistance 3px 0 @solidWhiteBorderColor,
+  0 0 0 @borderWidth @solidWhiteBorderColor;
