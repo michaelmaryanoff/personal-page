@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SocialLinks from './mainpage/SocialLinks';
+import SocialLinks from './mainPageComponents/SocialLinks';
 
 const HeroHeader = () => {
   return (
