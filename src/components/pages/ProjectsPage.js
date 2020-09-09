@@ -17,7 +17,7 @@ const ProjectsPage = () => {
         <div className="ui centered center aligned stackable grid">
           <LargeHeader label="React Projects" />
           <div className="ui row">
-            <div className="ui centered cards">
+            <div className="ui three centered stackable cards">
               <ProjectCard
                 imagePath={movieRouletteImage}
                 alt="Movie Roulette"
@@ -50,11 +50,11 @@ const ProjectsPage = () => {
           </div>
           <LargeHeader label="Swift projects" />
           <div className="ui row">
-            <div className="ui centered cards">
+            <div className="ui three centered stackable cards">
               <ProjectCard
                 imagePath={coffeeCalculatorImage}
-                alt="Simple coffee calculator"
-                header="Simple coffee calculator"
+                alt="Simple Coffee Calculator"
+                header="Simple Coffee Calculator"
                 description="A simple calculator app that calculates coffee to water ratios."
                 metaContent="Technologies used: Swift, UIKit"
                 projectLink="https://apps.apple.com/us/app/simple-coffee-calculator/id1455234543"
