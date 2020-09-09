@@ -12,8 +12,8 @@ import LargeHeader from './projectsPageComponents/LargeHeader';
 
 const ProjectsPage = () => {
   return (
-    <div className="basic segment">
-      <div className="ui container">
+    <div className="ui container">
+      <div className="basic segment">
         <div className="ui centered center aligned stackable grid">
           <LargeHeader label="React Projects" />
           <div className="ui row">

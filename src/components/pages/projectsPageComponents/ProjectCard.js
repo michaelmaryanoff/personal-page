@@ -7,7 +7,7 @@ const ProjectCard = props => {
       <a href={props.projectLink} className="image">
         <img src={props.imagePath} alt={props.alt} />
       </a>
-      <div className="content">
+      <div className="left aligned content">
         <div className="ui large centered header">{props.header}</div>
         <div className="description">{props.description}</div>
         <div className="extra content">{props.metaContent} </div>
