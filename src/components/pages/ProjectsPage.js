@@ -12,11 +12,11 @@ import LargeHeader from './projectsPageComponents/LargeHeader';
 
 const ProjectsPage = () => {
   return (
-    <div>
+    <div className="ui container">
       <LargeHeader label="React Projects" />
-      <div className="ui eight column stackable center aligned grid">
-        <div className="ui row">
-          <div className="ui cards">
+      <div className="ui stacking center aligned centered grid">
+        <div className="ui centered center aligned row">
+          <div className="ui two cards">
             <ProjectCard
               imagePath={movieRouletteImage}
               alt="Movie Roulette"
@@ -37,7 +37,7 @@ const ProjectsPage = () => {
             />
           </div>
         </div>
-        <div className="ui row">
+        <div className="ui centered center aligned row">
           <ProjectCard
             imagePath={personalPageImage}
             alt="Personal Page"
@@ -49,7 +49,7 @@ const ProjectsPage = () => {
           />
         </div>
       </div>
-      <LargeHeader label="Swift projects" />
+      {/* <LargeHeader label="Swift projects" />
       <div className="ui eight column stackable grid">
         <div className="ui three column center aligned centered row">
           <ProjectCard
@@ -73,7 +73,7 @@ const ProjectsPage = () => {
             gitHubLink="https://github.com/michaelmaryanoff/MovieRoulette"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
