@@ -9,8 +9,9 @@ const ProjectCard = props => {
       </a>
       <div className="left aligned content">
         <div className="ui large centered header">{props.header}</div>
+        <div className="extra content">{props.metaContent}</div>
+        <p />
         <div className="description">{props.description}</div>
-        <div className="extra content">{props.metaContent} </div>
       </div>
       <div className="extra content center aligned">
         <a className="ui inverted basic red button" href={props.projectLink}>

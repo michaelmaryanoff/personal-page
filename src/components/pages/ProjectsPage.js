@@ -23,7 +23,7 @@ const ProjectsPage = () => {
                 alt="Movie Roulette"
                 header="Movie Roulette"
                 description="An app which uses the tmdb Api to find a random movie to watch."
-                metaContent="Technologies used: React, Redux, HTML, CSS, React Router, TMDB API"
+                metaContent="React, Redux, HTML, CSS, React Router, TMDB API"
                 projectLink="https://play-movie-roulette.web.app"
                 gitHubLink="https://github.com/michaelmaryanoff/movieroulettereact"
               />
@@ -32,7 +32,7 @@ const ProjectsPage = () => {
                 alt="Baking Calculator"
                 header="High Altitude Baking Calculator"
                 description="Allows you to bake at high altitudes."
-                metaContent="Technologies used: React, Redux, HTML, CSS, React Router"
+                metaContent="React, Redux, HTML, CSS, React Router"
                 projectLink="https://highaltitudebaking-calculator.web.app"
                 gitHubLink="https://github.com/michaelmaryanoff/high-altitude-baking-calculator"
               />
@@ -42,7 +42,7 @@ const ProjectsPage = () => {
                 alt="Personal Page"
                 header="Personal Page"
                 description="My personal website built with React."
-                metaContent="Technologies used: React, React Router"
+                metaContent="React, React Router"
                 projectLink="https://highaltitudebaking-calculator.web.app"
                 gitHubLink="https://github.com/michaelmaryanoff/high-altitude-baking-calculator"
               />
@@ -56,7 +56,7 @@ const ProjectsPage = () => {
                 alt="Simple Coffee Calculator"
                 header="Simple Coffee Calculator"
                 description="A simple calculator app that calculates coffee to water ratios."
-                metaContent="Technologies used: Swift, UIKit"
+                metaContent="Swift, UIKit"
                 projectLink="https://apps.apple.com/us/app/simple-coffee-calculator/id1455234543"
                 gitHubLink="https://github.com/michaelmaryanoff/Ultimate-Coffee-Calculator"
               />
@@ -67,7 +67,7 @@ const ProjectsPage = () => {
                 description={
                   'The iOS version of the "Movie Roulette" app. Note: this app is currently not featured on the app store, so you will need to run via readme instructions on github repo'
                 }
-                metaContent="Technologies used: Swift, UIKit, SwiftyJSON, TMDB Api"
+                metaContent="Swift, UIKit, SwiftyJSON, TMDB API"
                 projectLink="https://github.com/michaelmaryanoff/MovieRoulette"
                 gitHubLink="https://github.com/michaelmaryanoff/MovieRoulette"
               />
