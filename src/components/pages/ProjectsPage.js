@@ -5,18 +5,16 @@ import ProjectCard from './projectsPageComponents/ProjectCard';
 import movieRouletteImage from '../../images/MovieRoulette.png';
 import bakingCalculatorImage from '../../images/BakingCalculator.png';
 import personalPageImage from '../../images/PersonalPage.png';
-import cofeeCalculatorImage from '../../images/CoffeeCalc.jpeg';
-import movieRouletteSwiftImage from '../../images/MovieRouletteSwift.png';
 
 import LargeHeader from './projectsPageComponents/LargeHeader';
 
 const ProjectsPage = () => {
   return (
     <div className="ui container">
-      <LargeHeader label="React Projects" />
-      <div className="ui stacking center aligned centered grid">
-        <div className="ui centered center aligned row">
-          <div className="ui two cards">
+      <div className="ui stackable center aligned centered grid">
+        <LargeHeader label="React Projects" />
+        <div className="ui centered center aligned centered row">
+          <div className="ui cards">
             <ProjectCard
               imagePath={movieRouletteImage}
               alt="Movie Roulette"
@@ -35,20 +33,19 @@ const ProjectsPage = () => {
               projectLink="https://highaltitudebaking-calculator.web.app"
               gitHubLink="https://github.com/michaelmaryanoff/high-altitude-baking-calculator"
             />
+            <ProjectCard
+              imagePath={personalPageImage}
+              alt="Personal Page"
+              header="Personal Page"
+              description="My personal website built with React."
+              metaContent="Technologies used: React, React Router"
+              projectLink="https://highaltitudebaking-calculator.web.app"
+              gitHubLink="https://github.com/michaelmaryanoff/high-altitude-baking-calculator"
+            />
           </div>
         </div>
-        <div className="ui centered center aligned row">
-          <ProjectCard
-            imagePath={personalPageImage}
-            alt="Personal Page"
-            header="Personal Page"
-            description="My personal website built with React."
-            metaContent="Technologies used: React, React Router"
-            projectLink="https://highaltitudebaking-calculator.web.app"
-            gitHubLink="https://github.com/michaelmaryanoff/high-altitude-baking-calculator"
-          />
-        </div>
       </div>
+
       {/* <LargeHeader label="Swift projects" />
       <div className="ui eight column stackable grid">
         <div className="ui three column center aligned centered row">
