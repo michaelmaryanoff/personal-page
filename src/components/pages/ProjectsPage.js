@@ -12,30 +12,32 @@ import LargeHeader from './projectsPageComponents/LargeHeader';
 
 const ProjectsPage = () => {
   return (
-    <div className="ui basic segment">
+    <div>
       <LargeHeader label="React Projects" />
-      <div className="ui eight column stackable grid">
-        <div className="ui three column center aligned centered row">
-          <ProjectCard
-            imagePath={movieRouletteImage}
-            alt="Movie Roulette"
-            header="Movie Roulette"
-            description="An app which uses the tmdb Api to find a random movie to watch."
-            metaContent="Technologies used: React, Redux, HTML, CSS, React Router, TMDB API"
-            projectLink="https://play-movie-roulette.web.app"
-            gitHubLink="https://github.com/michaelmaryanoff/movieroulettereact"
-          />
-          <ProjectCard
-            imagePath={bakingCalculatorImage}
-            alt="Baking Calculator"
-            header="High Altitude Baking Calculator"
-            description="Allows you to bake at high altitudes."
-            metaContent="Technologies used: React, Redux, HTML, CSS, React Router"
-            projectLink="https://highaltitudebaking-calculator.web.app"
-            gitHubLink="https://github.com/michaelmaryanoff/high-altitude-baking-calculator"
-          />
+      <div className="ui eight column stackable center aligned grid">
+        <div className="ui row">
+          <div className="ui cards">
+            <ProjectCard
+              imagePath={movieRouletteImage}
+              alt="Movie Roulette"
+              header="Movie Roulette"
+              description="An app which uses the tmdb Api to find a random movie to watch."
+              metaContent="Technologies used: React, Redux, HTML, CSS, React Router, TMDB API"
+              projectLink="https://play-movie-roulette.web.app"
+              gitHubLink="https://github.com/michaelmaryanoff/movieroulettereact"
+            />
+            <ProjectCard
+              imagePath={bakingCalculatorImage}
+              alt="Baking Calculator"
+              header="High Altitude Baking Calculator"
+              description="Allows you to bake at high altitudes."
+              metaContent="Technologies used: React, Redux, HTML, CSS, React Router"
+              projectLink="https://highaltitudebaking-calculator.web.app"
+              gitHubLink="https://github.com/michaelmaryanoff/high-altitude-baking-calculator"
+            />
+          </div>
         </div>
-        <div className="ui three column center aligned centered row">
+        <div className="ui row">
           <ProjectCard
             imagePath={personalPageImage}
             alt="Personal Page"

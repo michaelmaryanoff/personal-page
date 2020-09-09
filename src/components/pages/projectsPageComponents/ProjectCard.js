@@ -3,24 +3,22 @@ import PropTypes from 'prop-types';
 
 const ProjectCard = props => {
   return (
-    <div className="column">
-      <div className="ui fluid inverted card">
-        <a href={props.projectLink} className="image">
-          <img src={props.imagePath} alt={props.alt} />
+    <div className="ui inverted card">
+      <a href={props.projectLink} className="image">
+        <img src={props.imagePath} alt={props.alt} />
+      </a>
+      <div className="content">
+        <div className="ui large centered header">{props.header}</div>
+        <div className="description">{props.description}</div>
+        <div className="extra content">{props.metaContent} </div>
+      </div>
+      <div className="extra content center aligned">
+        <a className="ui inverted basic red button" href={props.projectLink}>
+          <i className="linkify icon"></i>Live Demo
         </a>
-        <div className="content">
-          <div className="ui large centered header">{props.header}</div>
-          <div className="description">{props.description}</div>
-          <div className="extra content">{props.metaContent} </div>
-        </div>
-        <div className="extra content center aligned">
-          <a className="ui inverted basic red button" href={props.projectLink}>
-            <i className="linkify icon"></i>Live Demo
-          </a>
-          <a href={props.gitHubLink} className="ui inverted basic red button">
-            <i className="github icon"></i>View Code
-          </a>
-        </div>
+        <a href={props.gitHubLink} className="ui inverted basic red button">
+          <i className="github icon"></i>View Code
+        </a>
       </div>
     </div>
   );
