@@ -10,6 +10,63 @@ import movieRouletteSwiftImage from '../../images/MovieRouletteSwift.png';
 
 import LargeHeader from './projectsPageComponents/LargeHeader';
 
+const techListJSAlternates = ' / TMDb API / Axios';
+
+const reactList = (
+  <div>
+    JS <i className="js icon"></i>/ HTML
+    <i className="html5 icon" />/ CSS <i className="css3 icon" />/ LESS
+    <p />
+    <i className="react icon"></i>React JS / React Redux / React Router
+    <p />
+    <div></div>
+    <p />
+    <i className="fire icon"></i>Firebase
+  </div>
+);
+
+const altReactList = (
+  <div>
+    JS <i className="js icon"></i>/ HTML
+    <i className="html5 icon" />/ CSS <i className="css3 icon" />/ LESS
+    <p />
+    <i className="react icon"></i>React JS / React Redux / React Router
+    <p />
+    <div></div>
+    <p />
+    <i className="fire icon"></i>Firebase{techListJSAlternates}
+  </div>
+);
+
+const coffeeCalcTechList = (
+  <div>
+    <i className="swift icon"></i> Swift / UIKit
+    <p />
+    <i className="mobile alternate icon"></i>Human Interface Guidelines /{' '}
+    <i className="rocket icon"></i>Test Flight
+  </div>
+);
+
+const swiftMovieRouletteTechList = (
+  <div>
+    <i className="swift icon"></i> Swift / UIKit / <i className="database icon"></i> Core Data
+    <p />
+    <p />
+    TMDb API / AlamoFire / SwiftyJSON
+  </div>
+);
+
+const swiftMovieRouletteDescription = (
+  <div>
+    A native iOS version of the React application mentioned above. Uses the TMDb service to suggest
+    movies depending on a set of user criteria. <p /> <p />{' '}
+    <em>
+      Note: it is not currently available on the App store, so in order to run the app, you will
+      need to download the zip from GitHub.
+    </em>
+  </div>
+);
+
 const ProjectsPage = () => {
   return (
     <div className="ui container">
@@ -22,8 +79,8 @@ const ProjectsPage = () => {
                 imagePath={movieRouletteImage}
                 alt="Movie Roulette"
                 header="Movie Roulette"
-                description="An app which uses the tmdb Api to find a random movie to watch."
-                metaContent="React, Redux, HTML, CSS, React Router, TMDB API"
+                description="I got tired of sifting through the same old suggestions on Netflix, so I created this application to find some hidden cinematic gems. Users can optionally log in to their TMDb account to view their watchlist and add movies."
+                techList={altReactList}
                 projectLink="https://play-movie-roulette.web.app"
                 gitHubLink="https://github.com/michaelmaryanoff/movieroulettereact"
               />
@@ -31,8 +88,8 @@ const ProjectsPage = () => {
                 imagePath={bakingCalculatorImage}
                 alt="Baking Calculator"
                 header="High Altitude Baking Calculator"
-                description="Allows you to bake at high altitudes."
-                metaContent="React, Redux, HTML, CSS, React Router"
+                description="The perfect solution for frustrated high altitude bakers doing calculations by hand. More than a simple calculator app, it involves lots of complex state management with Redux. My favorite part of this app was the challenge of outputting human-readable volume measurements. And the delcious beta testing, of course."
+                techList={reactList}
                 projectLink="https://highaltitudebaking-calculator.web.app"
                 gitHubLink="https://github.com/michaelmaryanoff/high-altitude-baking-calculator"
               />
@@ -41,10 +98,10 @@ const ProjectsPage = () => {
                 imagePath={personalPageImage}
                 alt="Personal Page"
                 header="Personal Page"
-                description="My personal website built with React."
-                metaContent="React, React Router"
-                projectLink="https://highaltitudebaking-calculator.web.app"
-                gitHubLink="https://github.com/michaelmaryanoff/high-altitude-baking-calculator"
+                description="I set out to create a simple, easy to navigate page to showcase my projects. I wanted to make sure you didn’t have to dig deep to find my projects and source code."
+                techList={reactList}
+                projectLink=""
+                gitHubLink=""
               />
             </div>
           </div>
@@ -55,8 +112,8 @@ const ProjectsPage = () => {
                 imagePath={coffeeCalculatorImage}
                 alt="Simple Coffee Calculator"
                 header="Simple Coffee Calculator"
-                description="A simple calculator app that calculates coffee to water ratios."
-                metaContent="Swift, UIKit"
+                description="I’m a big fan of coffee, and an important component of creating the perfect cup of coffee is the correct coffee to water ratio. This App currently had hundreds of downloads and ranks on the App Store for the search term “Coffee Calculator.”"
+                techList={coffeeCalcTechList}
                 projectLink="https://apps.apple.com/us/app/simple-coffee-calculator/id1455234543"
                 gitHubLink="https://github.com/michaelmaryanoff/Ultimate-Coffee-Calculator"
               />
@@ -64,10 +121,8 @@ const ProjectsPage = () => {
                 imagePath={movieRouletteSwiftImage}
                 alt="Movie Roulette (iOS)"
                 header="Movie Roulette (iOS)"
-                description={
-                  'The iOS version of the "Movie Roulette" app. Note: this app is currently not featured on the app store, so you will need to run via readme instructions on github repo'
-                }
-                metaContent="Swift, UIKit, SwiftyJSON, TMDB API"
+                description={swiftMovieRouletteDescription}
+                techList={swiftMovieRouletteTechList}
                 projectLink="https://github.com/michaelmaryanoff/MovieRoulette"
                 gitHubLink="https://github.com/michaelmaryanoff/MovieRoulette"
               />
