@@ -22,7 +22,7 @@
   line-height: 1.4285em;
   color: #ffffff;
   transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
-  border-radius: 0.28571429rem;
+  border-radius: 0.25rem;
   box-shadow: 0 0 0 1px rgba(34, 36, 38, 0.22) inset, 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .ui.message:first-child {
@@ -47,7 +47,7 @@
 
 /* Default font size */
 .ui.message .header:not(.ui) {
-  font-size: 1.14285714em;
+  font-size: 1.125em;
 }
 
 /* Paragraph */
@@ -181,7 +181,7 @@
 
 .ui.attached.message {
   margin-bottom: -1px;
-  border-radius: 0.28571429rem 0.28571429rem 0 0;
+  border-radius: 0.25rem 0.25rem 0 0;
   box-shadow: 0 0 0 1px rgba(34, 36, 38, 0.15) inset;
   margin-left: -1px;
   margin-right: -1px;
@@ -192,7 +192,7 @@
 }
 .ui.bottom.attached.message {
   margin-top: -1px;
-  border-radius: 0 0 0.28571429rem 0.28571429rem;
+  border-radius: 0 0 0.25rem 0.25rem;
   box-shadow: 0 0 0 1px rgba(34, 36, 38, 0.15) inset, 0 1px 2px 0 rgba(34, 36, 38, 0.15);
 }
 .ui.bottom.attached.message:not(:last-child) {
@@ -549,25 +549,25 @@
   font-size: 1em;
 }
 .ui.mini.message {
-  font-size: 0.78571429em;
+  font-size: 0.8125em;
 }
 .ui.tiny.message {
-  font-size: 0.85714286em;
+  font-size: 0.875em;
 }
 .ui.small.message {
-  font-size: 0.92857143em;
+  font-size: 0.9375em;
 }
 .ui.large.message {
-  font-size: 1.14285714em;
+  font-size: 1.125em;
 }
 .ui.big.message {
-  font-size: 1.28571429em;
+  font-size: 1.3125em;
 }
 .ui.huge.message {
-  font-size: 1.42857143em;
+  font-size: 1.4375em;
 }
 .ui.massive.message {
-  font-size: 1.71428571em;
+  font-size: 1.6875em;
 }
 
 

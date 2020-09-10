@@ -34,11 +34,11 @@
   text-align: left;
   line-height: 1.21428571em;
   font-family: 'Oswald', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  padding: 0.67857143em 1em;
+  padding: 0.58035714em 0.875em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: #ffffff;
-  border-radius: 0.28571429rem;
+  border-radius: 0.25rem;
   transition: box-shadow 0.1s ease, border-color 0.1s ease;
   box-shadow: none;
 }
@@ -99,9 +99,9 @@
   content: '';
   top: 50%;
   left: 50%;
-  margin: -0.64285714em 0 0 -0.64285714em;
-  width: 1.28571429em;
-  height: 1.28571429em;
+  margin: -0.65625em 0 0 -0.65625em;
+  width: 1.3125em;
+  height: 1.3125em;
   border-radius: 500rem;
   border: 0.2em solid rgba(0, 0, 0, 0.1);
 }
@@ -110,9 +110,9 @@
   content: '';
   top: 50%;
   left: 50%;
-  margin: -0.64285714em 0 0 -0.64285714em;
-  width: 1.28571429em;
-  height: 1.28571429em;
+  margin: -0.65625em 0 0 -0.65625em;
+  width: 1.3125em;
+  height: 1.3125em;
   -webkit-animation: loader 0.6s infinite linear;
           animation: loader 0.6s infinite linear;
   border: 0.2em solid #767676;
@@ -280,7 +280,7 @@
   border-radius: 0 !important;
 }
 .field .ui.transparent.input > textarea {
-  padding: 0.67857143em 1em;
+  padding: 0.58035714em 0.875em;
 }
 
 /* Transparent Icon */
@@ -327,9 +327,9 @@
   right: 0;
   margin: 0;
   height: 100%;
-  width: 2.67142857em;
+  width: 2.475em;
   opacity: 0.5;
-  border-radius: 0 0.28571429rem 0.28571429rem 0;
+  border-radius: 0 0.25rem 0.25rem 0;
   transition: opacity 0.3s ease;
 }
 .ui.icon.input > i.icon:not(.link) {
@@ -337,7 +337,7 @@
 }
 .ui.ui.ui.ui.icon.input > textarea,
 .ui.ui.ui.ui.icon.input > input {
-  padding-right: 2.67142857em;
+  padding-right: 2.475em;
 }
 .ui.icon.input > i.icon:before,
 .ui.icon.input > i.icon:after {
@@ -360,7 +360,7 @@
 .ui[class*="left icon"].input > i.icon {
   right: auto;
   left: 1px;
-  border-radius: 0.28571429rem 0 0 0.28571429rem;
+  border-radius: 0.25rem 0 0 0.25rem;
 }
 .ui[class*="left icon"].input > i.circular.icon {
   right: auto;
@@ -368,8 +368,8 @@
 }
 .ui.ui.ui.ui[class*="left icon"].input > textarea,
 .ui.ui.ui.ui[class*="left icon"].input > input {
-  padding-left: 2.67142857em;
-  padding-right: 1em;
+  padding-left: 2.475em;
+  padding-right: 0.875em;
 }
 
 /* Focus */
@@ -390,8 +390,8 @@
   font-size: 1em;
 }
 .ui.labeled.input > .label:not(.corner) {
-  padding-top: 0.78571429em;
-  padding-bottom: 0.78571429em;
+  padding-top: 0.6875em;
+  padding-bottom: 0.6875em;
 }
 
 /* Regular Label on Left */
@@ -426,8 +426,8 @@
 .ui.labeled.input .corner.label {
   top: 1px;
   right: 1px;
-  font-size: 0.64285714em;
-  border-radius: 0 0.28571429rem 0 0;
+  font-size: 0.5625em;
+  border-radius: 0 0.25rem 0 0;
 }
 
 /* Spacing with corner label */
@@ -578,8 +578,8 @@
 }
 .ui.action.input > .button,
 .ui.action.input > .buttons > .button {
-  padding-top: 0.78571429em;
-  padding-bottom: 0.78571429em;
+  padding-top: 0.6875em;
+  padding-bottom: 0.6875em;
   margin: 0;
 }
 
@@ -599,7 +599,7 @@
 .ui.action.input > .dropdown:first-child,
 .ui.action.input > .button:first-child,
 .ui.action.input > .buttons:first-child > .button {
-  border-radius: 0.28571429rem 0 0 0.28571429rem;
+  border-radius: 0.25rem 0 0 0.25rem;
 }
 .ui.action.input > .dropdown:not(:first-child),
 .ui.action.input > .button:not(:first-child),
@@ -609,7 +609,7 @@
 .ui.action.input > .dropdown:last-child,
 .ui.action.input > .button:last-child,
 .ui.action.input > .buttons:last-child > .button {
-  border-radius: 0 0.28571429rem 0.28571429rem 0;
+  border-radius: 0 0.25rem 0.25rem 0;
 }
 
 /* Input Focus */
@@ -649,25 +649,25 @@
   font-size: 1em;
 }
 .ui.mini.input {
-  font-size: 0.78571429em;
+  font-size: 0.8125em;
 }
 .ui.tiny.input {
-  font-size: 0.85714286em;
+  font-size: 0.875em;
 }
 .ui.small.input {
-  font-size: 0.92857143em;
+  font-size: 0.9375em;
 }
 .ui.large.input {
-  font-size: 1.14285714em;
+  font-size: 1.125em;
 }
 .ui.big.input {
-  font-size: 1.28571429em;
+  font-size: 1.3125em;
 }
 .ui.huge.input {
-  font-size: 1.42857143em;
+  font-size: 1.4375em;
 }
 .ui.massive.input {
-  font-size: 1.71428571em;
+  font-size: 1.6875em;
 }
 
 

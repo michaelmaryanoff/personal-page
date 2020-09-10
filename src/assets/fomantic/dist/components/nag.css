@@ -29,7 +29,7 @@
   font-size: 1rem;
   text-align: center;
   color: #ffffff;
-  border-radius: 0 0 0.28571429rem 0.28571429rem;
+  border-radius: 0 0 0.25rem 0.25rem;
   transition: 0.2s background ease;
 }
 a.ui.nag {
@@ -96,7 +96,7 @@ a.ui.nag {
 
 .ui.bottom.nags,
 .ui.bottom.nag {
-  border-radius: 0.28571429rem 0.28571429rem 0 0;
+  border-radius: 0.25rem 0.25rem 0 0;
   top: auto;
   bottom: 0;
 }
@@ -126,10 +126,10 @@ a.ui.nag {
   border-radius: 0 !important;
 }
 .ui.nags .nag:last-child {
-  border-radius: 0 0 0.28571429rem 0.28571429rem;
+  border-radius: 0 0 0.25rem 0.25rem;
 }
 .ui.bottom.nags .nag:last-child {
-  border-radius: 0.28571429rem 0.28571429rem 0 0;
+  border-radius: 0.25rem 0.25rem 0 0;
 }
 
 

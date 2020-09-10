@@ -135,7 +135,7 @@
 
 /* Default Header Size */
 .ui.items > .item > .content > .header:not(.ui) {
-  font-size: 1.28571429em;
+  font-size: 1.3125em;
 }
 
 /*--------------
@@ -439,25 +439,25 @@
   font-size: 1em;
 }
 .ui.mini.items > .item {
-  font-size: 0.78571429em;
+  font-size: 0.8125em;
 }
 .ui.tiny.items > .item {
-  font-size: 0.85714286em;
+  font-size: 0.875em;
 }
 .ui.small.items > .item {
-  font-size: 0.92857143em;
+  font-size: 0.9375em;
 }
 .ui.large.items > .item {
-  font-size: 1.14285714em;
+  font-size: 1.125em;
 }
 .ui.big.items > .item {
-  font-size: 1.28571429em;
+  font-size: 1.3125em;
 }
 .ui.huge.items > .item {
-  font-size: 1.42857143em;
+  font-size: 1.4375em;
 }
 .ui.massive.items > .item {
-  font-size: 1.71428571em;
+  font-size: 1.6875em;
 }
 
 /*---------------

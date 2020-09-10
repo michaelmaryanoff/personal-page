@@ -55,9 +55,9 @@
 
 .ui.form .field > label {
   display: block;
-  margin: 0 0 0.28571429rem 0;
+  margin: 0 0 0.25rem 0;
   color: #ffffff;
-  font-size: 0.92857143em;
+  font-size: 0.9375em;
   font-weight: bold;
   text-transform: none;
 }
@@ -106,12 +106,12 @@
   -webkit-appearance: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   line-height: 1.21428571em;
-  padding: 0.67857143em 1em;
+  padding: 0.58035714em 0.875em;
   font-size: 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: #ffffff;
-  border-radius: 0.28571429rem;
+  border-radius: 0.25rem;
   box-shadow: 0 0 0 0 transparent inset;
   transition: color 0.1s ease, border-color 0.1s ease;
 }
@@ -122,12 +122,12 @@
   margin: 0;
   -webkit-appearance: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  padding: 0.78571429em 1em;
+  padding: 0.6875em 0.875em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   outline: none;
   color: #ffffff;
-  border-radius: 0.28571429rem;
+  border-radius: 0.25rem;
   box-shadow: 0 0 0 0 transparent inset;
   transition: color 0.1s ease, border-color 0.1s ease;
   font-size: 1em;
@@ -178,7 +178,7 @@
 .ui.form .field .transparent.input:not(.icon) input,
 .ui.form .field input.transparent,
 .ui.form .field textarea.transparent {
-  padding: 0.67857143em 1em;
+  padding: 0.58035714em 0.875em;
 }
 .ui.form .field input.transparent,
 .ui.form .field textarea.transparent {
@@ -205,9 +205,9 @@
   width: 100%;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  border-radius: 0.28571429rem;
+  border-radius: 0.25rem;
   box-shadow: 0 0 0 0 transparent inset;
-  padding: 0.62em 1em;
+  padding: 0.62em 0.875em;
   color: #ffffff;
   transition: color 0.1s ease, border-color 0.1s ease;
 }
@@ -390,7 +390,7 @@
 .ui.form input[type="url"]:focus {
   color: rgba(0, 0, 0, 0.95);
   border-color: #85B7D9;
-  border-radius: 0.28571429rem;
+  border-radius: 0.25rem;
   background: #FFFFFF;
   box-shadow: 0 0 0 0 rgba(34, 36, 38, 0.35) inset;
 }
@@ -427,7 +427,7 @@
 .ui.form textarea:focus {
   color: rgba(0, 0, 0, 0.95);
   border-color: #85B7D9;
-  border-radius: 0.28571429rem;
+  border-radius: 0.25rem;
   background: #FFFFFF;
   box-shadow: 0 0 0 0 rgba(34, 36, 38, 0.35) inset;
   -webkit-appearance: none;
@@ -1300,7 +1300,7 @@
   z-index: 100;
 }
 .ui.loading.form.segments:before {
-  border-radius: 0.28571429rem;
+  border-radius: 0.25rem;
 }
 .ui.loading.form:after {
   position: absolute;
@@ -1416,9 +1416,9 @@
   margin-bottom: 0;
 }
 .ui.form .grouped.fields > label {
-  margin: 0 0 0.28571429rem 0;
+  margin: 0 0 0.25rem 0;
   color: #ffffff;
-  font-size: 0.92857143em;
+  font-size: 0.9375em;
   font-weight: bold;
   text-transform: none;
 }
@@ -1593,7 +1593,7 @@
   margin-top: 0;
   margin-bottom: 0;
   vertical-align: baseline;
-  font-size: 0.92857143em;
+  font-size: 0.9375em;
   font-weight: bold;
   color: #ffffff;
   text-transform: none;
@@ -1628,7 +1628,7 @@
 /* Label */
 .ui.form .inline.fields .field > :first-child,
 .ui.form .inline.field > :first-child {
-  margin: 0 0.85714286em 0 0;
+  margin: 0 0.875em 0 0;
 }
 .ui.form .inline.fields .field > :only-child,
 .ui.form .inline.field > :only-child {
@@ -1657,37 +1657,37 @@
 .ui.mini.form,
 .ui.mini.form .field .dropdown,
 .ui.mini.form .field .dropdown .menu > .item {
-  font-size: 0.78571429rem;
+  font-size: 0.8125rem;
 }
 .ui.tiny.form,
 .ui.tiny.form .field .dropdown,
 .ui.tiny.form .field .dropdown .menu > .item {
-  font-size: 0.85714286rem;
+  font-size: 0.875rem;
 }
 .ui.small.form,
 .ui.small.form .field .dropdown,
 .ui.small.form .field .dropdown .menu > .item {
-  font-size: 0.92857143rem;
+  font-size: 0.9375rem;
 }
 .ui.large.form,
 .ui.large.form .field .dropdown,
 .ui.large.form .field .dropdown .menu > .item {
-  font-size: 1.14285714rem;
+  font-size: 1.125rem;
 }
 .ui.big.form,
 .ui.big.form .field .dropdown,
 .ui.big.form .field .dropdown .menu > .item {
-  font-size: 1.28571429rem;
+  font-size: 1.3125rem;
 }
 .ui.huge.form,
 .ui.huge.form .field .dropdown,
 .ui.huge.form .field .dropdown .menu > .item {
-  font-size: 1.42857143rem;
+  font-size: 1.4375rem;
 }
 .ui.massive.form,
 .ui.massive.form .field .dropdown,
 .ui.massive.form .field .dropdown .menu > .item {
-  font-size: 1.71428571rem;
+  font-size: 1.6875rem;
 }
 
 
