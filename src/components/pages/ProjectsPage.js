@@ -56,6 +56,15 @@ const swiftMovieRouletteTechList = (
   </div>
 );
 
+const swiftVirtualTouristTechList = (
+  <div>
+    <i className="swift icon"></i> Swift / UIKit / <i className="database icon"></i> Core Data
+    <p />
+    <p />
+    <i className="map pin icon"></i> MapKit / URLSession
+  </div>
+);
+
 const swiftMovieRouletteDescription = (
   <div>
     A native iOS version of the React application mentioned above. Uses the TMDb service to suggest
@@ -123,6 +132,15 @@ const ProjectsPage = () => {
                 header="Movie Roulette (iOS)"
                 description={swiftMovieRouletteDescription}
                 techList={swiftMovieRouletteTechList}
+                projectLink="https://github.com/michaelmaryanoff/MovieRoulette"
+                gitHubLink="https://github.com/michaelmaryanoff/MovieRoulette"
+              />
+              <ProjectCard
+                imagePath={movieRouletteSwiftImage}
+                alt="Virtual Tourist"
+                header="Virtual Tourist"
+                description="An app that displays Flickr photos from a location of your choosing, anywhere in the world!"
+                techList={swiftVirtualTouristTechList}
                 projectLink="https://github.com/michaelmaryanoff/MovieRoulette"
                 gitHubLink="https://github.com/michaelmaryanoff/MovieRoulette"
               />
