@@ -9,7 +9,7 @@
 
 ![screenshot](src/githubAssets/homepage.png)
 
-<p align="left">In this repository you will find the code for my personal website, which I use to showcase my personal projects! It also serves as a small window into how I structure and write my code in React.</p>
+<p align="left">In this repository you will find the code for my personal website, which I use to showcase my portfolio projects! It also serves as a small window into how I structure and write my code in React.</p>
 
 ---
 
