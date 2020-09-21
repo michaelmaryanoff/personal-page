@@ -5,8 +5,9 @@ import ProjectCard from './projectsPageComponents/ProjectCard';
 import movieRouletteImage from '../../images/MovieRoulette.png';
 import bakingCalculatorImage from '../../images/BakingCalculator.png';
 import personalPageImage from '../../images/PersonalPage.png';
-import coffeeCalculatorImage from '../../images/CoffeeCalc.jpeg';
+import coffeeCalculatorImage from '../../images/CoffeeCalc.png';
 import movieRouletteSwiftImage from '../../images/MovieRouletteSwift.png';
+import virtualTouristImage from '../../images/VirtualTourist.png';
 
 import LargeHeader from './projectsPageComponents/LargeHeader';
 
@@ -136,7 +137,7 @@ const ProjectsPage = () => {
                 gitHubLink="https://github.com/michaelmaryanoff/MovieRoulette"
               />
               <ProjectCard
-                imagePath={movieRouletteSwiftImage}
+                imagePath={virtualTouristImage}
                 alt="Virtual Tourist"
                 header="Virtual Tourist"
                 description="An app that displays Flickr photos from a location of your choosing, anywhere in the world!"
