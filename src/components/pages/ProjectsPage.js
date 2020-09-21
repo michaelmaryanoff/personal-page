@@ -110,12 +110,12 @@ const ProjectsPage = () => {
                 header="Personal Page"
                 description="I set out to create a simple, easy to navigate page to showcase my projects. I wanted to make sure you didn’t have to dig deep to find my projects and source code."
                 techList={reactList}
-                projectLink=""
-                gitHubLink=""
+                projectLink="https://michael-maryanoff.web.app/"
+                gitHubLink="https://github.com/michaelmaryanoff/personal-page"
               />
             </div>
           </div>
-          <LargeHeader label="Swift projects" />
+          <LargeHeader label="Swift Projects" />
           <div className="ui row">
             <div className="ui three centered stackable cards">
               <ProjectCard
